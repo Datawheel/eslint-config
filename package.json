@@ -1,6 +1,6 @@
 {
   "name": "@datawheel/eslint-config",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A common set of eslint rules for the company.",
   "main": "index.js",
   "repository": {

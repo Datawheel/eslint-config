@@ -1,13 +1,18 @@
 {
   "name": "@datawheel/eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A common set of eslint rules for the company.",
   "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Datawheel/eslint-config.git"
   },
-  "keywords": ["datawheel", "eslint", "eslintconfig", "eslintrc"],
+  "keywords": [
+    "datawheel",
+    "eslint",
+    "eslintconfig",
+    "eslintrc"
+  ],
   "author": "Dave Landry <dave@datawheel.us>",
   "license": "MIT",
   "bugs": {

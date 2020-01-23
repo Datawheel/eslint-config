@@ -39,7 +39,7 @@ module.exports = {
     "dot-location": [2, "property"],
     "dot-notation": 2,
     "eol-last": 2,
-    "eqeqeq": 2,
+    "eqeqeq": [2, "smart"],
     "func-style": [2, "declaration", { "allowArrowFunctions": true }],
     "generator-star-spacing": 2,
     "global-require": 0,

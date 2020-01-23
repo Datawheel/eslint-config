@@ -123,5 +123,10 @@ module.exports = {
     "wrap-iife": 2,
     "wrap-regex": 2,
     "yoda": [2, "never"]
+  },
+  settings: {
+    react: {
+      version: "16.0"
+    }
   }
 }

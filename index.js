@@ -6,7 +6,7 @@ module.exports = {
     node: true
   },
   extends: ["plugin:react/recommended"],
-  parser: "babel-eslint",
+  parser: "@babel/eslint-parser",
   parserOptions: {
     sourceType: "module",
     ecmaFeatures: {
@@ -25,7 +25,9 @@ module.exports = {
     "block-scoped-var": 2,
     "block-spacing": 2,
     "brace-style": [2, "stroustrup"],
-    "camelcase": [2, { "properties": "never" }],
+    "camelcase": [2, {
+      "properties": "never"
+    }],
     "comma-dangle": 2,
     "comma-spacing": 2,
     "comma-style": 2,
@@ -40,30 +42,30 @@ module.exports = {
     "dot-notation": 2,
     "eol-last": 2,
     "eqeqeq": [2, "smart"],
-    "func-style": [2, "declaration", { "allowArrowFunctions": true }],
+    "func-style": [2, "declaration", {
+      "allowArrowFunctions": true
+    }],
     "generator-star-spacing": 2,
     "global-require": 0,
     "guard-for-in": 2,
     "handle-callback-err": 2,
     "id-match": 2,
-    "indent": [
-      2,
-      2,
-      {
-        "SwitchCase": 1,
-        "VariableDeclarator": {
-          "var": 2,
-          "let": 2,
-          "const": 3
-        }
+    "indent": [2, 2, {
+      "SwitchCase": 1,
+      "VariableDeclarator": {
+        "var": 2,
+        "let": 2,
+        "const": 3
       }
-    ],
+    }],
     "jsx-quotes": 2,
     "key-spacing": 2,
     "keyword-spacing": 2,
     "lines-around-comment": 2,
     "max-nested-callbacks": 2,
-    "new-cap": [2, { "capIsNewExceptions": ["Radium"] }],
+    "new-cap": [2, {
+      "capIsNewExceptions": ["Radium"]
+    }],
     "new-parens": 2,
     "no-cond-assign": 2,
     "no-constant-condition": 2,

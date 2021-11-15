@@ -5,7 +5,13 @@ module.exports = {
     es6: true,
     node: true
   },
-  extends: ["plugin:react/recommended"],
+  extends: [
+    "plugin:react/recommended",
+    "plugin:react-hooks/recommended",
+    "plugin:jsx-a11y/recommended",
+    "plugin:import/recommended",
+    "prettier"
+  ],
   parser: "@babel/eslint-parser",
   parserOptions: {
     sourceType: "module",
@@ -16,7 +22,7 @@ module.exports = {
     },
     ecmaVersion: 2017
   },
-  plugins: ["react"],
+  plugins: ["react", "react-hooks", "jsx-a11y", "import"],
   rules: {
     "array-bracket-spacing": 2,
     "arrow-body-style": 2,

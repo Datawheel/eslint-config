@@ -1,6 +1,6 @@
 {
   "name": "@datawheel/eslint-config",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "description": "A common set of eslint rules for the company.",
   "main": "./index.js",
   "readme": "./README.md",
@@ -12,7 +12,8 @@
     "datawheel",
     "eslint",
     "eslintconfig",
-    "eslintrc"
+    "eslintrc",
+    "prettier"
   ],
   "author": "Dave Landry <dave@datawheel.us>",
   "license": "MIT",
@@ -23,7 +24,12 @@
   "peerDependencies": {
     "@babel/core": ">= 7",
     "@babel/eslint-parser": ">= 7",
-    "eslint": ">= 3",
-    "eslint-plugin-react": ">= 7"
+    "eslint": "^8.2.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.27.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "prettier": "^2.4.1"
   }
 }
